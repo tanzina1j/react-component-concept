@@ -1,18 +1,18 @@
 import React from 'react'
-
+import LogoIcon from '../assets/images.png'
 const Header = () => {
   return (
      <section>
-        <header class="header-section">
-				<div class="container">
-					<div class="header-wrapper">
-						<div class="logo-menu">
-							<a href="index.html" class="logo">
-								<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTddF2NIBS8vJRNDxVN1B1NTZtEh7Y6lNCNrdpPL7C3AJLjYTGX" alt="main-logo"/>
+        <header className="header-section">
+				<div className="container">
+					<div className="header-wrapper">
+						<div className="logo-menu">
+							<a href="index.html" className="logo">
+								<img src={LogoIcon} alt="main-logo"/>
 							</a>
 						</div>
-						<ul class="main-menu">
-							<li class="active">
+						<ul className="main-menu">
+							<li className="active">
 								<a href="#0">home</a>
 							</li>
 							<li>
